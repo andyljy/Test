@@ -73,7 +73,7 @@ jobs:
 
     - run: |
         echo "Run, Build Application using script"
-        ./Test/Constants.cs
+        ./Test/buildscript.sh
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
